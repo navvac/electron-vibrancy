@@ -1,6 +1,6 @@
-var Vibrancy = require('bindings')('Vibrancy');
+var Vibrancy = require('node-gyp-build')(__dirname);
 
-module.exports = require('bindings')('Vibrancy');
+module.exports = Vibrancy;
 
 function AddView(buffer,options) {
 	var viewOptions = {

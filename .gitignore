@@ -40,3 +40,12 @@ build
 
 # Idea IDE
 .idea
+
+# yarn 2
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
